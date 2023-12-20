@@ -26,7 +26,7 @@ class AppDemo(QWidget):
         # Logo und Name hinzufügen
         self.top_layout = QHBoxLayout()
         self.logo = QLabel(self)
-        logo_pixmap = QPixmap('UniversitaetLogo.png')
+        logo_pixmap = QPixmap('GUIpythonWindowsapp/UniversitaetLogo.png')
         self.logo.setPixmap(logo_pixmap.scaled(70, 70, Qt.KeepAspectRatio))
         self.top_layout.addWidget(self.logo)
 
@@ -42,7 +42,7 @@ class AppDemo(QWidget):
         self.combo.currentIndexChanged.connect(self.select_serial_port)
 
         self.image_label = QLabel(self)
-        pixmap = QPixmap('IhrBild.png')
+        pixmap = QPixmap('GUIpythonWindowsapp/IhrBild.png')
         pixmap_scaled = pixmap.scaled(600, 600, Qt.KeepAspectRatio, Qt.SmoothTransformation)
         self.image_label.setPixmap(pixmap_scaled)
         self.image_label.setAlignment(Qt.AlignCenter)
