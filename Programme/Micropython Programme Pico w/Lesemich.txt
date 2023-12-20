@@ -1,0 +1,1 @@
+Zum nutzun der DrehzahlOptokoppler und der tacholesemitADC musste im pico w die gerufte Libraries vorinstalliert verden zb.(ads1x15)

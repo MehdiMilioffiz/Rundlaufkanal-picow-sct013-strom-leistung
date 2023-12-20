@@ -1,0 +1,7 @@
+1) APP.py wurde mit einem Python-Executor auf Windows geöffnet es musste darauf geachtet werden, dass main.py auf dem Pico W installiert wurde, der Pico mit USB an den Rechner angeschlossen wurde und dann App.py gestartet und die serielle COM-PIN am Programm ausgewählt wurde.
+
+2)in main.py Strom musste  Mit wariabel name   (wert)
+
+3)app.py musste in den Ordner mit den Bildern kopiert werden. Nur so konnte es korrekt ausgeführt werden.
+
+MehdiMili
